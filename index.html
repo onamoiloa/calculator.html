@@ -23,22 +23,24 @@
         <td class="digitButton" onclick="digitBtnPressed(4)">4</td>
         <td class="digitButton" onclick="digitBtnPressed(5)">5</td>
         <td class="digitButton" onclick="digitBtnPressed(6)">6</td>
-        <td class="digitButton" onclick="operatorBtnPressed('-')">-</td>
+        <td class="operatorButton" onclick="operatorBtnPressed('-')">-</td>
       </tr>
       <tr>
         <td class="digitButton" onclick="digitBtnPressed(1)">1</td>
         <td class="digitButton" onclick="digitBtnPressed(2)">2</td>
         <td class="digitButton" onclick="digitBtnPressed(3)">3</td>
-        <td class="digitButton" onclick="operatorBtnPressed('+')">+</td>
+        <td class="operatorButton" onclick="operatorBtnPressed('+')">+</td>
       </tr>
       <tr>
-        <td colspan="2" onclick="digitBtnPressed(0)">0</td>
+        <td class="digitButton" colspan="2" onclick="digitBtnPressed(0)">0</td>
 
         <td onclick="digitBtnPressed()">AC</td>
-        <td onclick="operatorBtnPressed('0')">/</td>
+        <td class="operatorButton" onclick="operatorBtnPressed('0')">/</td>
       </tr>
       <tr>
-        <td colspan="4" onclick="equalsBtnPressed()">=</td>
+        <td class="operatorButton" colspan="4" onclick="equalsBtnPressed()">
+          =
+        </td>
       </tr>
     </table>
     <script src="index.js"></script>

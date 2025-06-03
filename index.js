@@ -8,7 +8,7 @@ function digitBtnPressed(button) {
     document.getElementById("inputBox").value = button;
     newLine = false;
   } else {
-    var currentValue = (document.getElementById("imputBox").value =
+    var currentValue = (document.getElementById("inputBox").value =
       currentValue + button);
   }
 }
@@ -42,6 +42,7 @@ function equalsBtnPressed() {
       finalsTotal = value1 / value2;
       break;
     case "x":
+    case "*":
       finalsTotal = value1 * value2;
       break;
   }
